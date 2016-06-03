@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA15EAC61D01763A000098FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15EAC51D01763A000098FF /* AppDelegate.swift */; };
+		DA15EAC81D01763A000098FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15EAC71D01763A000098FF /* ViewController.swift */; };
+		DA15EACB1D01763A000098FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA15EAC91D01763A000098FF /* Main.storyboard */; };
+		DA15EACD1D01763A000098FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA15EACC1D01763A000098FF /* Assets.xcassets */; };
+		DA15EAD01D01763A000098FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA15EACE1D01763A000098FF /* LaunchScreen.storyboard */; };
+		DA15EADB1D01763A000098FF /* LeanCloudDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15EADA1D01763A000098FF /* LeanCloudDemoTests.swift */; };
+		DA15EAE61D01763A000098FF /* LeanCloudDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15EAE51D01763A000098FF /* LeanCloudDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA15EAD71D01763A000098FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA15EABA1D01763A000098FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA15EAC11D01763A000098FF;
+			remoteInfo = LeanCloudDemo;
+		};
+		DA15EAE21D01763A000098FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA15EABA1D01763A000098FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA15EAC11D01763A000098FF;
+			remoteInfo = LeanCloudDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA15EAC21D01763A000098FF /* LeanCloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeanCloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15EAC51D01763A000098FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA15EAC71D01763A000098FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA15EACA1D01763A000098FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA15EACC1D01763A000098FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA15EACF1D01763A000098FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA15EAD11D01763A000098FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA15EAD61D01763A000098FF /* LeanCloudDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeanCloudDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15EADA1D01763A000098FF /* LeanCloudDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeanCloudDemoTests.swift; sourceTree = "<group>"; };
+		DA15EADC1D01763A000098FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA15EAE11D01763A000098FF /* LeanCloudDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeanCloudDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15EAE51D01763A000098FF /* LeanCloudDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeanCloudDemoUITests.swift; sourceTree = "<group>"; };
+		DA15EAE71D01763A000098FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA15EABF1D01763A000098FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA15EAD31D01763A000098FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA15EADE1D01763A000098FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA15EAB91D01763A000098FF = {
+			isa = PBXGroup;
+			children = (
+				DA15EAC41D01763A000098FF /* LeanCloudDemo */,
+				DA15EAD91D01763A000098FF /* LeanCloudDemoTests */,
+				DA15EAE41D01763A000098FF /* LeanCloudDemoUITests */,
+				DA15EAC31D01763A000098FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA15EAC31D01763A000098FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA15EAC21D01763A000098FF /* LeanCloudDemo.app */,
+				DA15EAD61D01763A000098FF /* LeanCloudDemoTests.xctest */,
+				DA15EAE11D01763A000098FF /* LeanCloudDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA15EAC41D01763A000098FF /* LeanCloudDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DA15EAC51D01763A000098FF /* AppDelegate.swift */,
+				DA15EAC71D01763A000098FF /* ViewController.swift */,
+				DA15EAC91D01763A000098FF /* Main.storyboard */,
+				DA15EACC1D01763A000098FF /* Assets.xcassets */,
+				DA15EACE1D01763A000098FF /* LaunchScreen.storyboard */,
+				DA15EAD11D01763A000098FF /* Info.plist */,
+			);
+			path = LeanCloudDemo;
+			sourceTree = "<group>";
+		};
+		DA15EAD91D01763A000098FF /* LeanCloudDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA15EADA1D01763A000098FF /* LeanCloudDemoTests.swift */,
+				DA15EADC1D01763A000098FF /* Info.plist */,
+			);
+			path = LeanCloudDemoTests;
+			sourceTree = "<group>";
+		};
+		DA15EAE41D01763A000098FF /* LeanCloudDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA15EAE51D01763A000098FF /* LeanCloudDemoUITests.swift */,
+				DA15EAE71D01763A000098FF /* Info.plist */,
+			);
+			path = LeanCloudDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA15EAC11D01763A000098FF /* LeanCloudDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA15EAEA1D01763A000098FF /* Build configuration list for PBXNativeTarget "LeanCloudDemo" */;
+			buildPhases = (
+				DA15EABE1D01763A000098FF /* Sources */,
+				DA15EABF1D01763A000098FF /* Frameworks */,
+				DA15EAC01D01763A000098FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeanCloudDemo;
+			productName = LeanCloudDemo;
+			productReference = DA15EAC21D01763A000098FF /* LeanCloudDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA15EAD51D01763A000098FF /* LeanCloudDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA15EAED1D01763A000098FF /* Build configuration list for PBXNativeTarget "LeanCloudDemoTests" */;
+			buildPhases = (
+				DA15EAD21D01763A000098FF /* Sources */,
+				DA15EAD31D01763A000098FF /* Frameworks */,
+				DA15EAD41D01763A000098FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA15EAD81D01763A000098FF /* PBXTargetDependency */,
+			);
+			name = LeanCloudDemoTests;
+			productName = LeanCloudDemoTests;
+			productReference = DA15EAD61D01763A000098FF /* LeanCloudDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA15EAE01D01763A000098FF /* LeanCloudDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA15EAF01D01763A000098FF /* Build configuration list for PBXNativeTarget "LeanCloudDemoUITests" */;
+			buildPhases = (
+				DA15EADD1D01763A000098FF /* Sources */,
+				DA15EADE1D01763A000098FF /* Frameworks */,
+				DA15EADF1D01763A000098FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA15EAE31D01763A000098FF /* PBXTargetDependency */,
+			);
+			name = LeanCloudDemoUITests;
+			productName = LeanCloudDemoUITests;
+			productReference = DA15EAE11D01763A000098FF /* LeanCloudDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA15EABA1D01763A000098FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zenghao0708;
+				TargetAttributes = {
+					DA15EAC11D01763A000098FF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DA15EAD51D01763A000098FF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DA15EAC11D01763A000098FF;
+					};
+					DA15EAE01D01763A000098FF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DA15EAC11D01763A000098FF;
+					};
+				};
+			};
+			buildConfigurationList = DA15EABD1D01763A000098FF /* Build configuration list for PBXProject "LeanCloudDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA15EAB91D01763A000098FF;
+			productRefGroup = DA15EAC31D01763A000098FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA15EAC11D01763A000098FF /* LeanCloudDemo */,
+				DA15EAD51D01763A000098FF /* LeanCloudDemoTests */,
+				DA15EAE01D01763A000098FF /* LeanCloudDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA15EAC01D01763A000098FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA15EAD01D01763A000098FF /* LaunchScreen.storyboard in Resources */,
+				DA15EACD1D01763A000098FF /* Assets.xcassets in Resources */,
+				DA15EACB1D01763A000098FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA15EAD41D01763A000098FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA15EADF1D01763A000098FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA15EABE1D01763A000098FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA15EAC81D01763A000098FF /* ViewController.swift in Sources */,
+				DA15EAC61D01763A000098FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA15EAD21D01763A000098FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA15EADB1D01763A000098FF /* LeanCloudDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA15EADD1D01763A000098FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA15EAE61D01763A000098FF /* LeanCloudDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA15EAD81D01763A000098FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA15EAC11D01763A000098FF /* LeanCloudDemo */;
+			targetProxy = DA15EAD71D01763A000098FF /* PBXContainerItemProxy */;
+		};
+		DA15EAE31D01763A000098FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA15EAC11D01763A000098FF /* LeanCloudDemo */;
+			targetProxy = DA15EAE21D01763A000098FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA15EAC91D01763A000098FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA15EACA1D01763A000098FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA15EACE1D01763A000098FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA15EACF1D01763A000098FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA15EAE81D01763A000098FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA15EAE91D01763A000098FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA15EAEB1D01763A000098FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeanCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zenghao0708.LeanCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA15EAEC1D01763A000098FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeanCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zenghao0708.LeanCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA15EAEE1D01763A000098FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeanCloudDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zenghao0708.LeanCloudDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeanCloudDemo.app/LeanCloudDemo";
+			};
+			name = Debug;
+		};
+		DA15EAEF1D01763A000098FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeanCloudDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zenghao0708.LeanCloudDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeanCloudDemo.app/LeanCloudDemo";
+			};
+			name = Release;
+		};
+		DA15EAF11D01763A000098FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeanCloudDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zenghao0708.LeanCloudDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeanCloudDemo;
+			};
+			name = Debug;
+		};
+		DA15EAF21D01763A000098FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeanCloudDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zenghao0708.LeanCloudDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeanCloudDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA15EABD1D01763A000098FF /* Build configuration list for PBXProject "LeanCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA15EAE81D01763A000098FF /* Debug */,
+				DA15EAE91D01763A000098FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA15EAEA1D01763A000098FF /* Build configuration list for PBXNativeTarget "LeanCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA15EAEB1D01763A000098FF /* Debug */,
+				DA15EAEC1D01763A000098FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA15EAED1D01763A000098FF /* Build configuration list for PBXNativeTarget "LeanCloudDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA15EAEE1D01763A000098FF /* Debug */,
+				DA15EAEF1D01763A000098FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA15EAF01D01763A000098FF /* Build configuration list for PBXNativeTarget "LeanCloudDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA15EAF11D01763A000098FF /* Debug */,
+				DA15EAF21D01763A000098FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA15EABA1D01763A000098FF /* Project object */;
+}
