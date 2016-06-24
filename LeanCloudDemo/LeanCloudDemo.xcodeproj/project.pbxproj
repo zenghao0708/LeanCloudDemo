@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28FB3C2F96C037087D096849 /* Pods_LeanCloudDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C42E4E65046BFD37867831 /* Pods_LeanCloudDemoTests.framework */; };
+		97D3D79057B20D91DB2DAFF3 /* Pods_LeanCloudDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1452A08EFA058DB4B7EAA8BB /* Pods_LeanCloudDemo.framework */; };
+		D5CF87D14C545AE7C30A8E13 /* Pods_LeanCloudDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A92BA808765C5D9DAF8CB6A /* Pods_LeanCloudDemoUITests.framework */; };
 		DA15EAC61D01763A000098FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15EAC51D01763A000098FF /* AppDelegate.swift */; };
 		DA15EAC81D01763A000098FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15EAC71D01763A000098FF /* ViewController.swift */; };
 		DA15EACB1D01763A000098FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA15EAC91D01763A000098FF /* Main.storyboard */; };
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0611C38C378668C25D61053B /* Pods-LeanCloudDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanCloudDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeanCloudDemoTests/Pods-LeanCloudDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1452A08EFA058DB4B7EAA8BB /* Pods_LeanCloudDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeanCloudDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A92BA808765C5D9DAF8CB6A /* Pods_LeanCloudDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeanCloudDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D00BEB1E02632D3D21F1C4 /* Pods-LeanCloudDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanCloudDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeanCloudDemo/Pods-LeanCloudDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8060CEB7245CCF4EF7C1A976 /* Pods-LeanCloudDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanCloudDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeanCloudDemo/Pods-LeanCloudDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		ABA78776DBABA2F5702AE972 /* Pods-LeanCloudDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanCloudDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeanCloudDemoUITests/Pods-LeanCloudDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0C42E4E65046BFD37867831 /* Pods_LeanCloudDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeanCloudDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA15EAC21D01763A000098FF /* LeanCloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeanCloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA15EAC51D01763A000098FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA15EAC71D01763A000098FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,9 @@
 		DA15EAE11D01763A000098FF /* LeanCloudDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeanCloudDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA15EAE51D01763A000098FF /* LeanCloudDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeanCloudDemoUITests.swift; sourceTree = "<group>"; };
 		DA15EAE71D01763A000098FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA25656D1D017B6600F59DD4 /* LeanCloudDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeanCloudDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		DFF669AEC957DB242E65F3A1 /* Pods-LeanCloudDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanCloudDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeanCloudDemoUITests/Pods-LeanCloudDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E48E082B0B97636F3C75DAF8 /* Pods-LeanCloudDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeanCloudDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeanCloudDemoTests/Pods-LeanCloudDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D3D79057B20D91DB2DAFF3 /* Pods_LeanCloudDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28FB3C2F96C037087D096849 /* Pods_LeanCloudDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +83,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5CF87D14C545AE7C30A8E13 /* Pods_LeanCloudDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D32BD7ABEF4A34017B914E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1452A08EFA058DB4B7EAA8BB /* Pods_LeanCloudDemo.framework */,
+				C0C42E4E65046BFD37867831 /* Pods_LeanCloudDemoTests.framework */,
+				1A92BA808765C5D9DAF8CB6A /* Pods_LeanCloudDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4FFED836954508305AC3682 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8060CEB7245CCF4EF7C1A976 /* Pods-LeanCloudDemo.debug.xcconfig */,
+				37D00BEB1E02632D3D21F1C4 /* Pods-LeanCloudDemo.release.xcconfig */,
+				0611C38C378668C25D61053B /* Pods-LeanCloudDemoTests.debug.xcconfig */,
+				E48E082B0B97636F3C75DAF8 /* Pods-LeanCloudDemoTests.release.xcconfig */,
+				ABA78776DBABA2F5702AE972 /* Pods-LeanCloudDemoUITests.debug.xcconfig */,
+				DFF669AEC957DB242E65F3A1 /* Pods-LeanCloudDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA15EAB91D01763A000098FF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				DA15EAD91D01763A000098FF /* LeanCloudDemoTests */,
 				DA15EAE41D01763A000098FF /* LeanCloudDemoUITests */,
 				DA15EAC31D01763A000098FF /* Products */,
+				A4FFED836954508305AC3682 /* Pods */,
+				0D32BD7ABEF4A34017B914E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +144,7 @@
 				DA15EACC1D01763A000098FF /* Assets.xcassets */,
 				DA15EACE1D01763A000098FF /* LaunchScreen.storyboard */,
 				DA15EAD11D01763A000098FF /* Info.plist */,
+				DA25656D1D017B6600F59DD4 /* LeanCloudDemo-Bridging-Header.h */,
 			);
 			path = LeanCloudDemo;
 			sourceTree = "<group>";
@@ -132,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA15EAEA1D01763A000098FF /* Build configuration list for PBXNativeTarget "LeanCloudDemo" */;
 			buildPhases = (
+				C74978C103052213BE26C1FB /* [CP] Check Pods Manifest.lock */,
 				DA15EABE1D01763A000098FF /* Sources */,
 				DA15EABF1D01763A000098FF /* Frameworks */,
 				DA15EAC01D01763A000098FF /* Resources */,
+				D6775F627296E7459F23C1E3 /* [CP] Embed Pods Frameworks */,
+				EE0D352250423CA76B75BB75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA15EAED1D01763A000098FF /* Build configuration list for PBXNativeTarget "LeanCloudDemoTests" */;
 			buildPhases = (
+				E5911689A8B9E81F0182C52A /* [CP] Check Pods Manifest.lock */,
 				DA15EAD21D01763A000098FF /* Sources */,
 				DA15EAD31D01763A000098FF /* Frameworks */,
 				DA15EAD41D01763A000098FF /* Resources */,
+				3F2D5BC441AA46864451D84B /* [CP] Embed Pods Frameworks */,
+				FC5AE69146EB6766ECCCAD8D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA15EAF01D01763A000098FF /* Build configuration list for PBXNativeTarget "LeanCloudDemoUITests" */;
 			buildPhases = (
+				822F6FE73B91B4E145B7DA08 /* [CP] Check Pods Manifest.lock */,
 				DA15EADD1D01763A000098FF /* Sources */,
 				DA15EADE1D01763A000098FF /* Frameworks */,
 				DA15EADF1D01763A000098FF /* Resources */,
+				AB067D74E6B939A03137ABC1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +300,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F2D5BC441AA46864451D84B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanCloudDemoTests/Pods-LeanCloudDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		822F6FE73B91B4E145B7DA08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB067D74E6B939A03137ABC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanCloudDemoUITests/Pods-LeanCloudDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C74978C103052213BE26C1FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6775F627296E7459F23C1E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanCloudDemo/Pods-LeanCloudDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5911689A8B9E81F0182C52A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE0D352250423CA76B75BB75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanCloudDemo/Pods-LeanCloudDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC5AE69146EB6766ECCCAD8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeanCloudDemoTests/Pods-LeanCloudDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA15EABE1D01763A000098FF /* Sources */ = {
@@ -399,28 +572,36 @@
 		};
 		DA15EAEB1D01763A000098FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8060CEB7245CCF4EF7C1A976 /* Pods-LeanCloudDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LeanCloudDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zenghao0708.LeanCloudDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LeanCloudDemo/LeanCloudDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		DA15EAEC1D01763A000098FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D00BEB1E02632D3D21F1C4 /* Pods-LeanCloudDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LeanCloudDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zenghao0708.LeanCloudDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LeanCloudDemo/LeanCloudDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		DA15EAEE1D01763A000098FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0611C38C378668C25D61053B /* Pods-LeanCloudDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LeanCloudDemoTests/Info.plist;
@@ -433,6 +614,7 @@
 		};
 		DA15EAEF1D01763A000098FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E48E082B0B97636F3C75DAF8 /* Pods-LeanCloudDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LeanCloudDemoTests/Info.plist;
@@ -445,6 +627,7 @@
 		};
 		DA15EAF11D01763A000098FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA78776DBABA2F5702AE972 /* Pods-LeanCloudDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LeanCloudDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +639,7 @@
 		};
 		DA15EAF21D01763A000098FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFF669AEC957DB242E65F3A1 /* Pods-LeanCloudDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LeanCloudDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +668,7 @@
 				DA15EAEC1D01763A000098FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA15EAED1D01763A000098FF /* Build configuration list for PBXNativeTarget "LeanCloudDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +677,7 @@
 				DA15EAEF1D01763A000098FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA15EAF01D01763A000098FF /* Build configuration list for PBXNativeTarget "LeanCloudDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +686,7 @@
 				DA15EAF21D01763A000098FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

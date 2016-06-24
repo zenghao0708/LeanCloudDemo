@@ -1,0 +1,19 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'LeanCloudDemo' do
+  
+  # Pods for LeanCloudDemo
+  pod 'AVOSCloud'
+
+  target 'LeanCloudDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LeanCloudDemoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
